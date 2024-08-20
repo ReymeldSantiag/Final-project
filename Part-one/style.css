@@ -1,0 +1,136 @@
+.box{
+    height: 800px;
+    width: 1440px;
+    background: url(https://cdn.discordapp.com/attachments/870197018256085004/1275304320597889125/Resize_image_project-4_4.png?ex=66c56734&is=66c415b4&hm=c08f9b14b765558f768d207cc3d81795ab0d75787206adb38b4744443d940b05&);
+    
+}
+
+.box-2{
+ background-color: black;
+height: 600px;
+width: 1000px;}
+
+.space-2{
+    height: 100px;
+}
+
+/* Navbar */
+.topnav{
+    border: solid 1px black
+}
+
+/* Search bar */
+.search{
+    --padding: 14px;
+
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background: #f6f6f6;
+    transition: box-shadow 0.25s;
+    margin-left: 600px;
+}
+
+.search:focus-within {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.75)
+}
+
+.search-input{
+    font-size:16px;
+    font-family: 'Lexend', sans-serif;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background:transparent;
+    width: 300px;
+}
+
+.search-input::placeholder,
+.search-icon{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.video{
+    width: 1440px;
+    margin-left: 300px;
+
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+}
+/* "Shop Now" Button */
+.button {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button a{
+    font-size: 14px;
+    color:#000000;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 7px 30px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-bottom: 30%;
+}
+
+.button a:hover{
+    box-shadow: 1px 2px 5px black;
+}
+
+/* Shopping Bag */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-left: 00px;
+
+}
+
+svg{
+    width: 41px;
+    height: 30px;
+}
+
+header .icon-cart{
+    position: relative;
+}
+
+header .icon-cart span{
+    display: flex;
+    font-size: small;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-weight:600;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2px;
+    right: 11px;
+
+}

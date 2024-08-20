@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppind",sans-serif;
+}
+
+body{
+   background: url(https://cdn.discordapp.com/attachments/870197018256085004/1275303318335262831/wp2231065-3440x1440-wallpapers.jpg?ex=66c56645&is=66c414c5&hm=6a216d7e7ab4b345d4140b44b5c805bad278a9f072b29e03d68677d4cb6878a3&);
+   background-size: cover;
+   min-height:100vh;
+   position:relative;
+   overflow: hidden;
+
+}
+
+body::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -8;
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background:rgba(0, 0, 0, 0.637);
+    width: 100%;
+    height: 100%;
+    box-shadow: 6px 5px 16px #eee;
+}
+
+.wrapper h2 {
+    font-size: 3rem;
+    color:#eee;
+    padding: 2rem 1rem;
+    position: relative;
+
+}
+
+.wrapper h2::after{
+content: "";
+position:absolute;
+height: 5px;
+top: 100px;
+left: 20px;
+width: 18px;
+background: #e5073e;
+}
+
+.form-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 1rem;
+
+}
+
+.form-section ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-details .icons {
+    background: #e5073e;
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.form-details li {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+    margin: 0,8rem 0;
+}
+
+.form-details li i {
+   font-size: 1.5rem;
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   height: inherit;
+}
+
+.form-details strong{
+    color: blue
+}
+
+/* part 2 */
+
+.from-group{
+    position: relative;
+}
+
+.from-group .form-control{
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    resize: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.from-group span{
+    position: absolute;
+    top: 0.8rem;
+    left: 0;
+    pointer-events: none;
+    font-size: 0.8rem;
+    color: #ddd;
+    text-transform: uppercase;
+    transition: 0.5s ;
+}
+
+.from-group .form-control:valid ~ span,
+.from-group .form-control:focus ~ span{
+    background-color: #e5073e;
+    color: #fff;
+    transform: translatex(10px) translateY(-10);
+    font-size: 0.8rem;
+    padding: 0 10px;
+}
+
+.input-field button{
+    outline: none;
+    border: none;
+    background: #e5073e;
+    color: #ddd;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.input-field button:active{
+    transform: scale(1,1);
+
+}
+
+@media(max-width:768px){
+    .form-section{
+        grid-template-columns: 1fr;
+    }
+
+    .wrapper h2::after{
+        content: "";
+        position:absolute;
+        height: 3px;
+        top: 90px;
+        left: 20px;
+        width: 18px;
+        background: #e5073e;
+    }
+    .wrapper h2 {
+        font-size: 2rem;
+        
+    }
+    
+}

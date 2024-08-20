@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Oversize Graphic T-Shirt",
+        "price": 27,
+        "image": "./P2.img/Resize_image_project-8_1.png"
+    },
+
+    {
+        "id": 2,
+        "name": "Oversize Graphic T-Shirt",
+        "price": 27,
+        "image": "./P2.img/Resize_image_project-8_1.png"
+    },
+
+    {
+        "id": 3,
+        "name": "Oversize Graphic T-Shirt",
+        "price": 27,
+        "image": "./P2.img/Resize_image_project-8_1.png&"
+    },
+
+    {
+        "id": 4,
+        "name": "Oversize Graphic T-Shirt",
+        "price": 27,
+        "image": "./P2.img/Resize_image_project-8_1.png"
+    },
+
+    {
+        "id": 5,
+        "name": "Oversize Graphic T-Shirt",
+        "price": 27,
+        "image": "./P2.img/Resize_image_project-8_1.png&"
+    },
+
+    {
+        "id": 6,
+        "name": "Oversize Graphic T-Shirt",
+        "price": 27,
+        "image": "./P2.img/Resize_image_project-8_1.png"
+    },
+
+    {
+        "id": 7,
+        "name": "Oversize Graphic T-Shirt",
+        "price": 27,
+        "image": "./P2.img/Resize_image_project-8_1.png&"
+    },
+
+    {
+        "id": 8,
+        "name": "Oversize Graphic T-Shirt",
+        "price": 27,
+        "image": "ht./P2.img/Resize_image_project-8_1.png"
+    }
+]
